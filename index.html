@@ -1,0 +1,320 @@
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my portfolio</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <!-- Try this more compatible version -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <meta name="description" content="my portfolio" />
+    <title>Dev Hammed</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="src/" />
+    <link rel="stylesheet" href="src/style.css" />
+
+    <link rel="icon" href="public/img/dev.jpg" />
+
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container navbar">
+        <a href="#" class="logo">Dev<span>Sodiq</span></a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span>Hammed sodiq </span><br />Web Developer</h1>
+          <p>
+            I create beautiful, responsive websites and web applications with
+            modern technologies and best websites.
+          </p>
+          <div class="hero-btns">
+            <a href="#portfolio" class="btn">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="img/my-pichero.jpg" alt="Profile" class="profile-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>I'm a passionate web developer with 2+ years of experience</h3>
+            <p>
+              I specialize in creating responsive, user-friendly websites and
+              web applications using modern technologies. My approach combines
+              technical expertise with creative problem-solving to deliver
+              exceptional digital experiences.
+            </p>
+            <p>
+              With a strong foundation in both front-end and back-end
+              development, I bring ideas to life through clean, efficient code
+              and intuitive design.
+            </p>
+
+            <div class="skills">
+              <span class="skill">HTML5</span>
+              <span class="skill">CSS3</span>
+              <span class="skill">JavaScript</span>
+              <!-- <span class="skill">React</span>
+              <span class="skill">Vue.js</span>
+              <span class="skill">Node.js</span>
+              <span class="skill">Python</span>
+              <span class="skill">UI/UX Design</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Portfolio</h2>
+        </div>
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <!-- <img src="img/what port.jpg" alt="Project" class="portfolio-img" /> -->
+            <div class="portfolio-info">
+              <h3>Pedro gadget</h3>
+              <p>
+                A comprehensive landingpage for gadget store operations with
+                real-time direct whatapp message.
+              </p>
+              <div class="portfolio-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a href="https://benevolent-moxie-42fac0.netlify.app/" class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <!-- <img
+              src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80"
+              alt="Project"
+              class="portfolio-img"
+            /> -->
+            <div class="portfolio-info">
+              <h3>ultra-properties</h3>
+              <p>
+                Mobile-first travel booking platform with integrated payment
+                system and location services.
+              </p>
+              <div class="portfolio-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a href="https://ultra-properties.netlify.app/" class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+
+          <div class="portfolio-item">
+            <!-- <img
+              src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
+              alt="Project"
+              class="portfolio-img"
+            /> -->
+            <div class="portfolio-info">
+              <h3>omini-food website</h3>
+              <p>
+                A healthy food website build with uniqueness .build as a
+                practical
+              </p>
+              <div class="portfolio-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a href="https://omini-foodie.netlify.app/" class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Let's talk about your project</h3>
+            <p>
+              I'm currently available for freelance work and open to new
+              opportunities. Feel free to reach out!
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <a href="mailto:sodiqhammedajao123@Gmail.com"
+                    >devsodiq@Gmail.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Phone</h4>
+                  <a href="tel:+08114335576">081 1** 3** **</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-text">
+                  <h4>Location</h4>
+                  <p>Lagos Ngeria</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <!-- <a href="#" class="social-link"><i class="fab fa-whatapp"></i></a> -->
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" required />
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control" required />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" required></textarea>
+              </div>
+
+              <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <a href="#" class="footer-logo">Dev<span>Sodiq</span></a>
+            <p>
+              Creating exceptional digital experiences through clean code and
+              innovative design.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Web Development</a></li>
+              <!-- <li><a href="#">UI/UX Design</a></li> -->
+              <li><a href="#">Frontend Development</a></li>
+              <!-- <li><a href="#">Backend Development</a></li> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2025 Hammed sodiq Portfolio.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- <script src="src/main.js"></script> -->
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
