@@ -1,3 +1,7 @@
+// In src/main.js
+import "./style.css";
+// ... rest of your JavaScript
+
 // Header scroll effect
 window.addEventListener("scroll", function () {
   const header = document.getElementById("header");
