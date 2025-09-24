@@ -328,6 +328,7 @@ header.scrolled {
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: var(--transition);
+  /* width: 100%; */
 }
 
 .portfolio-item:hover {
@@ -684,6 +685,7 @@ body {
   .portfolio-grid {
     grid-template-columns: 1fr;
     gap: 25px;
+    /* justify-items: center; */
   }
 
   .portfolio-item {
